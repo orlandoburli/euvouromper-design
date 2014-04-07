@@ -452,6 +452,7 @@ a.saiba-mais-curso:hover {
 
 }
 .content-depoimentos .autor {
+	color: #234361;
 	margin-top: 20px;
 	font-family: 'Open Sans Bold';
 }
@@ -479,4 +480,81 @@ a.saiba-mais-curso:hover {
 	height: 66px;
 	margin: 0 auto;
 	background: transparent url('../imgs/bg-redes-sociais.png') 0 0 repeat-x;
+	padding-top: 15px;
 }
+#redes-sociais ul {
+	width: 185px;
+	overflow: auto;
+	margin: 0 auto;
+}
+
+#redes-sociais ul li {
+	display: inline-block;;
+	float: left;
+}
+
+#redes-sociais ul li a {
+	display: block;
+	width: 28px;
+	height: 31px;
+	text-indent: -99999px;
+	margin-right: 5px;
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+#redes-sociais ul li a:hover {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+
+}
+
+#redes-sociais ul li a.facebook {
+	background: transparent url('../imgs/icons-redes-sociais.png') 0 0 no-repeat;
+}
+#redes-sociais ul li a.facebook:hover {
+	background: transparent url('../imgs/icons-redes-sociais.png') 0 -31px no-repeat;
+}
+
+
+#redes-sociais ul li a.twitter {
+	background: transparent url('../imgs/icons-redes-sociais.png') -33px 0 no-repeat;
+}
+#redes-sociais ul li a.twitter:hover {
+	background: transparent url('../imgs/icons-redes-sociais.png') -33px -31px no-repeat;
+}
+
+
+#redes-sociais ul li a.google {
+	background: transparent url('../imgs/icons-redes-sociais.png') -65px 0 no-repeat;
+}
+#redes-sociais ul li a.google:hover {
+	background: transparent url('../imgs/icons-redes-sociais.png') -65px -31px no-repeat;
+}
+
+#redes-sociais ul li a.youtube {
+	background: transparent url('../imgs/icons-redes-sociais.png') -97px 0 no-repeat;
+}
+#redes-sociais ul li a.youtube:hover {
+	background: transparent url('../imgs/icons-redes-sociais.png') -97px -31px no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
