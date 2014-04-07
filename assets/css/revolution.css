@@ -34,8 +34,8 @@ website:   	http://www.themepunch.com
 **************************/
 
 .tp-hide-revslider,.tp-caption.tp-hidden-caption	{	visibility:hidden !important; display:none !important;}
-
-.tp-caption { z-index:1;}
+/* ESSE CARALHO AQUI ARRUMA PORRA DO POSICIONAMENTO DO BOTAO, PORRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA! FILHA DA PUUUUUUUUUUUUUUUUTAAAA */
+.tp-caption { z-index:1; left:90px !important;}
 .tp-caption.big_white{
 			position: absolute;
 			color: #fff;
@@ -321,7 +321,7 @@ website:   	http://www.themepunch.com
 
 
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
-		.button	{	padding:4px 8px 3px; line-height:25px !important; font-size:11px !important;font-weight:normal;	}
+		.button	{	left: 140px; padding:4px 8px 3px; line-height:25px !important; font-size:11px !important;font-weight:normal;	}
 		a.button { -webkit-transition: none; -moz-transition: none; -o-transition: none; -ms-transition: none;	 }
 
 
@@ -640,6 +640,203 @@ website:   	http://www.themepunch.com
 
 
 
+
+@import url('//fonts.googleapis.com/css?family=Roboto:300,500');
+
+
+/**
+ * default
+ */
+body,.btn,input {
+	color:#333;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smooth:always;
+}
+@media(max-width:767px) {
+	body,.btn,input,h1,h2,h3,h4,h5 {
+		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-weight:normal;
+	}
+	.site-search{
+		display:none;
+	}
+}
+p, li{
+	font-size:1.2em;
+	line-height:1.6em;
+}
+h2 {
+	font-size:2em;
+	color:#555;
+}
+.btn-primary,.btn-inverse,.btn-danger{
+	color:#fff !important;
+}
+.btn-primary{
+	background:#0099CB;
+}
+.btn-primary:hover{
+	background:#0085B1;	
+}
+.btn-large{
+	font-size:1.4em;
+	padding:15px 19px;
+	left: 140px !important;
+}
+.btn-largex{
+	padding:16px 24px;
+	font-size:1.6em;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;border-radius:6px;
+}
+.carousel-control {
+	background:transparent;
+	color:#666;
+	border:none;
+	border-radius:0;
+}
+.carousel-control:hover,.carousel-control:focus{
+	color:#333;
+}
+.span-no-margin {
+	margin-left:0;
+}
+.page {
+	margin-top:40px;
+	margin-bottom:40px;
+}
+.breadcrumb{
+	background:transparent;
+	padding:0;
+	font-size:0.8em;
+}
+.modal-header{
+	padding:5px 15px;
+	border-bottom:none;
+}
+.text-center {
+	text-align:center !important;
+}
+.text-right {
+	text-align:right !important;
+}
+.table-noborder {
+	margin:0;
+}
+.table-noborder td, .table-noborder th {
+	border:0;
+	padding-top:0;
+	padding-bottom:0;
+}
+.table-nopadding td {
+	padding:0;
+	padding-right:1px;
+}
+.table-padding td, .table-padding th {
+	padding:5px;
+}
+.table-plan td, .table-plan th{
+	padding:0 2px;
+}
+.modal-body{
+	max-height:500px;
+}
+ul.bullet li{
+	list-style:square url('../_img/bullet.png');
+}
+.alert{
+	font-size:0.9em;
+}
+
+
+/**
+ * colors
+ */
+.bg-gray{
+	background:#f5f5f5 !important;
+}
+.bg-gratis,a.border-gratis:hover {
+	background-color:#72cc4b !important;
+}
+.border-gratis {
+	border-color:#72cc4b !important;
+}
+.color-gratis {
+	color:#72cc4b;
+}
+.bg-idiomas,a.border-idiomas:hover {
+	background-color:#fc6455 !important;
+}
+.border-idiomas {
+	border-color:#fc6455 !important;
+}
+.color-idiomas {
+	color:#fc6455;
+}
+.bg-enem,a.border-enem:hover {
+	background-color:#57afb1 !important;
+}
+.border-enem {
+	border-color:#57afb1 !important;
+}
+.color-enem {
+	color:#57afb1;
+}
+.bg-oab,a.border-oab:hover {
+	background-color:#b157aa !important;
+}
+.border-oab {
+	border-color:#b157aa !important;
+}
+.color-oab {
+	color:#b157aa;
+}
+.bg-escolar,a.border-escolar:hover {
+	background-color:#fbbe35 !important;
+}
+.border-escolar {
+	border-color:#fbbe35 !important;
+}
+.color-escolar {
+	color:#fbbe35;
+}
+.bg-empresas,a.border-empresas:hover {
+	background-color:#0099CB !important;
+}
+.border-empresas {
+	border-color:#0099CB !important;
+}
+.color-empresas {
+	color:#9754e2;
+}
+
+
+/**
+ * sliders
+ */
+.slider{
+	position:relative;
+	max-height:350px;
+	width:100%;
+	overflow:hidden;
+}
+.slider ul {
+	visibility:hidden;
+}
+.slider-title{
+	font-size:2.4em;
+	font-weight:300;
+	line-height:1em;
+	left:40px;	
+}
+.slider-paragraph{
+	font-size:1em;
+	line-height:1em;
+}
+.slider .btn-primary{
+	background:#FEBD00;
+}
 
 
 /*********************************************

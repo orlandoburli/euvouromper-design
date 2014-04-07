@@ -893,8 +893,8 @@ a {
   font-weight: bold;
 }
 .metro h4 {
-  font-family: 'Segoe UI Semibold_', 'Open Sans Bold', Verdana, Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-family: 'Segoe UI Semibold_', Verdana, Arial, Helvetica, sans-serif;
+  font-weight: 100;
   color: #000000;
   font-size: 1.6rem;
   line-height: 1.6rem;
