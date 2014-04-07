@@ -1,0 +1,215 @@
+.border {
+	border: 1px solid red !important;
+	margin: 0 !important;
+}
+
+.horizontal-menu-top {
+	margin: 0 !important;
+	position: absolute;
+	right: 0;
+	bottom: 398px;
+	width: 65%;
+}
+
+.horizontal-menu-top ul {
+	list-style: none;
+	overflow: auto;
+	background-color: #3D89CF;
+	padding: 20px 10px;
+	margin: 0;
+}
+.horizontal-menu-top ul li {
+ 	display: inline-block;
+ 	float: left;
+ 	font-size: 1.1em;
+}
+
+.horizontal-menu-top ul li a {
+	color: #fff;
+	padding: 10px 15px;
+}
+
+.horizontal-menu-top ul li a:hover {
+	color: #fff;
+	background-color: #245F93;
+	text-decoration: none;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+/* Area do Aluno crie-conta */
+#conteiner-area-aluno {
+	width: 280px;
+	padding: 5px 15px 10px 15px;
+	background-color: #245F93;
+	position: absolute;
+	right: 10%;
+}
+
+#conteiner-area-aluno h3 {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#form-area-aluno input[type="submit"]{
+	float: right;
+}
+
+#form-area-aluno .links-login {
+	width: 150px;
+	display: inline-block !important;
+	float: left !important;
+}
+
+#form-area-aluno .crie-conta {
+	display: inline-block !important;
+	float: left !important;
+}
+
+#form-area-aluno .esqueceu-senha {
+	display: inline-block !important;
+	float: left !important;
+}
+
+/* Phones landscape*/
+
+@media only screen and (max-width: 1024px) {
+	#conteiner-area-aluno {
+		width: 280px;
+		padding: 5px 15px 10px 15px;
+		background-color: #245F93;
+		position: absolute;
+		right: 0;
+		width: 100%;
+	}
+
+	.horizontal-menu-top {
+		bottom: 52%;
+		width: 55%;
+	}
+
+}
+
+@media only screen and (max-width: 800px) {
+
+	.horizontal-menu-top {
+		bottom: 39%;
+		width: 45%;
+	}
+
+	.horizontal-menu-top ul {
+		list-style: none;
+		overflow: auto;
+		background-color: #3D89CF;
+		padding: 10px 10px;
+		margin: 0;
+	}
+
+	.horizontal-menu-top ul li {
+	    display: block !important;
+	    float: none !important;
+	    width: 95%;
+    }
+
+	.horizontal-menu-top ul li a {
+		width: 100%;
+		padding: 8px 8px !important;
+		display: block;
+	}
+
+	.horizontal-menu-top ul li a:hover {
+		background-color: #245F93;
+		text-decoration: none;
+	}
+
+	#conteiner-area-aluno {
+		width: 100%;
+		right: 0;
+	}
+
+}
+
+.content-header {
+	height: 536px;
+	background-color: #417DB2;
+	position: relative;
+}
+
+
+/* Carrossel PROFESSORES  */
+#container{	
+	margin:0 auto;
+	text-align:left;
+	position:relative;
+	padding:0.1em 0;
+	}
+	
+ul#items{		
+	margin:1em 0;
+	width:auto;
+	height:245px;
+	overflow:hidden;
+	}
+ul#items li{
+	list-style:none;
+	float:left;
+	height:240px;
+	overflow:hidden;
+	margin:0 4px;
+	text-align:center;
+	color:#fff;
+	}
+ul#items li:hover{color:#333;}
+ul#items li .image{
+	margin:20px 20px 10px 20px;
+	width:142px;
+	height:148px;
+	overflow:hidden;
+	}	
+ul#items h3{ 
+	text-shadow:#f1f1f1 0 1px 0;
+	font-size: 0.9em;
+	padding: 5px;
+	-webkit-border-radius: 20px 20px 20px 20px;
+	border-radius: 20px 20px 20px 20px;
+	background-color: #5F9CD4;
+	color:#fff;
+}	
+ul#items .info{color:#999;text-shadow:#f1f1f1 0 1px 0;}	
+ol#pagination{position:relative;text-align:center;}
+ol#pagination li{
+	display:inline-block;
+	width:16px;
+	height:16px;
+	background:url('../imgs/bg_buttons.png') no-repeat 0 0;
+	text-align:left;
+	text-indent:-8000px;
+	list-style:none;
+	cursor:pointer;
+	margin:0 2px;
+	}
+ol#pagination li:hover{background:url('../imgs/bg_buttons.png') no-repeat 0 -16px;}
+ol#pagination li.current{color:#f00;font-weight:bold;background:url('../imgs/bg_buttons.png') no-repeat 0 -32px;}
+ol#pagination li.prev, ol#pagination li.next{
+	position:absolute;
+	top:-150px;
+	}
+ol#pagination li.prev{left:-30px;background:url('../imgs/bg_buttons.png') no-repeat 0 -64px;}
+ol#pagination li.next{right:-30px;background:url('../imgs/bg_buttons.png') no-repeat 0 -48px;}
+
+
+/* Content Site  */
+
+h2.title-professores {
+	width: 100%;
+	background:transparent url('../imgs/title-prof.png') no-repeat 0 0;
+	padding-left: 60px;
+	border-bottom: 1px solid #ccc;
+	line-height: 5.9rem;
+}
