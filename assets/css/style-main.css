@@ -8,7 +8,6 @@ hr.line {
 }
 
 .left {
-	display: block;
 	float: left;
 	margin-right: 20px !important;
 }
@@ -546,9 +545,96 @@ a.saiba-mais-curso:hover {
 	background: transparent url('../imgs/icons-redes-sociais.png') -97px -31px no-repeat;
 }
 
+#informacoes,#minha-conta,#fale-conosco,#newsletter {
+	margin-right: 10px !important;
+}
 
+#newsletter p {
+	margin-top: 15px;
+}
 
+#newsletter input[type="text"] {
+background-color: transparent !important;
+border: 1px solid #fff;
+padding: 6px 8px;
+color: #fff;
+width: 100%;
 
+}
+
+#newsletter input[type="submit"] {
+	background-color: transparent !important;
+	border: 1px solid #fff;
+	color: #fff;
+	float: right;
+	margin-top: 15px;
+}
+
+#newsletter placeholder {
+color: #fff;
+}
+.box-footer span {
+	width: 100%;
+	border-bottom: 1px solid #2F5882;
+	overflow: auto;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+#informacoes h3 {	
+	width: 120px;
+}
+
+#minha-conta h3 {	
+	width: 132px;
+}
+
+#fale-conosco h3 {	
+	width: 142px;
+}
+
+#newsletter h3 {	
+	width: 112px;
+}
+
+.box-footer p {
+	color: #fff;	
+	font-size: 0.8em;
+
+}
+
+.box-footer span h3 {
+	border-bottom: 1px solid #fff;
+	padding-bottom: 0.5em;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 1.3em;
+	letter-spacing: 1px;
+}
+
+ul.lista-footer {
+	list-style: none;
+	margin: 15px 0;
+	padding: 0 !important;
+}
+
+ul.lista-footer li {
+	margin: 0;
+	padding: 0;
+}
+
+ul.lista-footer li a {
+	font-size: 0.8em;
+	color: #fff;
+}
+
+ul.lista-footer li a:hover {
+	text-decoration: underline;
+	color: #fff;
+}
 
 
 
