@@ -15,38 +15,49 @@ hr.line {
 
 /* ----Start------ */
 
+.container {
+	padding-bottom: 25px;
+}
+
 .border {
 	border: 1px solid red !important;
 	margin: 0 !important;
 }
 
-.horizontal-menu-top {
+.horizontal-menu-top-home {
 	margin: 0 !important;
 	position: absolute;
 	right: 0;
 	bottom: 398px;
 	width: 65%;
 }
+.horizontal-menu-top {
+	margin: 0 !important;
+	position: absolute;
+	right: 0;
+	bottom: 68px;
+	width: 65%;
+}
 
-.horizontal-menu-top ul {
+.horizontal-menu-top ul, .horizontal-menu-top-home ul {
 	list-style: none;
 	overflow: auto;
 	background-color: #3D89CF;
 	padding: 20px 10px;
 	margin: 0;
 }
-.horizontal-menu-top ul li {
+.horizontal-menu-top ul li, .horizontal-menu-top-home ul li {
  	display: inline-block;
  	float: left;
  	font-size: 1.1em;
 }
 
-.horizontal-menu-top ul li a {
+.horizontal-menu-top ul li a, .horizontal-menu-top-home ul li a {
 	color: #fff;
 	padding: 10px 15px;
 }
 
-.horizontal-menu-top ul li a:hover {
+.horizontal-menu-top ul li a:hover, .horizontal-menu-top-home ul li a:hover {
 	color: #fff;
 	background-color: #245F93;
 	text-decoration: none;
@@ -152,8 +163,14 @@ hr.line {
 
 }
 
-.content-header {
+#content-header-home {
 	height: 536px;
+	background-color: #417DB2;
+	position: relative;
+}
+
+#content-header {
+	height: 206px;
 	background-color: #417DB2;
 	position: relative;
 }
@@ -226,6 +243,11 @@ h2.titles-big {
 	width: 100%;
 	color: #245F92;
 
+}
+
+h2.linha-h2 { 
+	border-bottom: 1px solid #ccc;
+	font-size: 2em;
 }
 
 h2.title-professores {
@@ -637,10 +659,41 @@ ul.lista-footer li a:hover {
 }
 
 
+/* ------------ PAGE NOTICIAS -------------*/
 
+a.article-lista-noticias {
+	font-family: 'Open Sans Bold';
+	color: #333;
+	width: 100%;
+	padding: 20px;
+	display: block;
+	background-color: #f1f1f1;
+	text-decoration: none;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	margin-top: 10px;
+	display: block;
+}
+a.article-lista-noticias:hover {
+	color: #333;
+	background-color: #D4D4D4;
+	-webkit-transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+	-ms-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+}
 
+a.article-lista-noticias h4 {
+	/*font-family: 'Open Sans Bold';*/
+	font-weight: bold;
+	color: #333;
+}
 
-
-
+.paginacao {
+	margin: 35px 0 35px 0;
+	float: right;
+	display: block;
+}
 
 
