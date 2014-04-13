@@ -323,7 +323,7 @@ h2.title-tv {
 }
 
 .footer-curso span {
-	font-size: 1.6em;
+	font-size: 1.5em;
 	font-weight: bold;
 	float: left;
 	display: inline-block;
@@ -606,19 +606,19 @@ color: #fff;
 }
 
 #informacoes h3 {	
-	width: 120px;
-}
-
-#minha-conta h3 {	
 	width: 132px;
 }
 
+#minha-conta h3 {	
+	width: 135px;
+}
+
 #fale-conosco h3 {	
-	width: 142px;
+	width: 145px;
 }
 
 #newsletter h3 {	
-	width: 112px;
+	width: 115px;
 }
 
 .box-footer p {
@@ -697,3 +697,23 @@ a.article-lista-noticias h4 {
 }
 
 
+
+/*------- PAGE PROFESSOR -----------*/
+
+#foto-professor {
+	width: 22%;
+	padding: 25px;
+	float: left;
+	margin: 0 15px 0 10px;
+}
+
+#foto-professor h5 {
+	background-color: #5F9CD4;
+	color: #fff;
+	padding: 10px;
+}
+
+#desc-prof {
+	float: left;
+	margin-bottom: 35px;
+}
