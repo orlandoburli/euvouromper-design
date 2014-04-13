@@ -752,3 +752,26 @@ a.article-lista-noticias h4 {
 	float: left;
 	margin-bottom: 35px;
 }
+
+
+/*--------- PAGES ARTIGOS -----------*/
+#autor-artigo {
+	width: 100%;
+	border-left: 4px solid #417DB2;
+	overflow: auto;
+	margin: 50px 0;
+	padding-left: 10px;
+}
+
+#autor-artigo figure {
+	width: 10%;
+	margin: 0 10px 0 0;
+	padding: 0;
+	float: left;
+}
+
+#autor-artigo h5 {
+	text-transform: uppercase;
+	padding: 1em 0 0 0;
+}
+
