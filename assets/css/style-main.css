@@ -889,13 +889,26 @@ ul#menu-aluno li a.credito span {
 #tabela-mensagens {
 	margin: 20px 0;
 }
-
-#pedidos-abertos, #pedidos-concluidos {
-	text-align: center;
+#saldo {
+	padding-top: 10px;	
+}
+#saldo span {
+	padding: 20px;
+	background-color: #3D89CF;
+	display: block;
+	color: #fff;
+	font-size: 2em;
+	font-family: 'Open Sans Bold';
+}
+#pedidos-abertos, #saldo {
 	width: 48%;
 	float: left;
 }
-
+.botao-comprar {
+	margin: 15px 0 !important;
+	display: block;
+	float: right;
+}
 a.numeros-pedidos {
 	background-color: #3D89CF;
 	-webkit-border-radius: 50px 50px 50px 50px;
@@ -908,8 +921,8 @@ a.numeros-pedidos {
 	font-family: 'Open Sans Bold';
 }
 
-#pedidos-concluidos {
-
+#pedidos-abertos {
+	text-align: center;
 }
 
 ul#lista-perguntas-frequentes {
