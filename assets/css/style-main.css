@@ -865,6 +865,25 @@ ul#menu-aluno li a.dados {
 ul#menu-aluno li a.preferencias {
 	background: url('../imgs/user-preferencias.png') no-repeat 15px center;
 }
+ul#menu-aluno li a.credito {
+	background: url('../imgs/user-creditos.png') no-repeat 15px center;
+	font-family: 'Open Sans Bold';
+	color: #fff !important;
+	background-color: #3D89CF;
+	position: relative;
+}
+ul#menu-aluno li a.credito:hover {
+	background: url('../imgs/user-creditos-hover.png') no-repeat 15px center;
+	color: #111 !important;
+	background-color: #3D89CF;
+}
+
+ul#menu-aluno li a.credito span {
+	position: absolute;
+	top: 3%;
+	font-size: 0.8em;
+}
+
 
 #tabela-mensagens {
 	margin: 20px 0;
