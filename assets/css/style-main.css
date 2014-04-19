@@ -892,13 +892,19 @@ ul#menu-aluno li a.credito span {
 #saldo {
 	padding-top: 10px;	
 }
+#saldo p {
+	margin-top: 15px;
+}
 #saldo span {
 	padding: 20px;
 	background-color: #3D89CF;
 	display: block;
 	color: #fff;
-	font-size: 2em;
+	font-size: 3em;
 	font-family: 'Open Sans Bold';
+	-webkit-border-radius: 50px 50px 50px 50px;
+	border-radius: 50px 50px 50px 50px;
+	padding: 8px 25px;
 }
 #pedidos-abertos, #saldo {
 	width: 48%;
@@ -907,7 +913,7 @@ ul#menu-aluno li a.credito span {
 .botao-comprar {
 	margin: 15px 0 !important;
 	display: block;
-	float: right;
+	float: left;
 }
 a.numeros-pedidos {
 	background-color: #3D89CF;
