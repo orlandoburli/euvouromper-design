@@ -1087,3 +1087,27 @@ a.ver-todas-simples:hover {
 	border-top: 1px solid #ccc;
 	clear: both;
 }
+
+#total-pedido {
+	position: relative;
+	text-align: right;
+	min-height: 50px;
+	padding-right: 0.5em;
+
+}
+.label-total-pedido {
+	position: absolute;
+	top: 2%;
+	font-size: 0.9em;
+	text-align: right;
+	display: table;
+	width: 100%;
+}
+.total-pedido-valor {
+	position: absolute;
+	width: 100%;
+	top: 24%;
+	font-size: 2em;
+	display: table;
+	text-align: right;
+}
