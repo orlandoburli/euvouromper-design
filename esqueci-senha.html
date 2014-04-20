@@ -24,17 +24,17 @@
     <script src="./assets/docs/js/jquery/jquery.widget.min.js"></script>
     <script src="./assets/docs/js/jquery/jquery.mousewheel.js"></script>
     <script src="./assets/docs/js/prettify/prettify.js"></script>
-    <script src="./assets/docs/js/prettify/prettify.js"></script>
 
     <!-- Metro UI CSS JavaScript plugins -->
 	<script src="./assets/js/jquery.number.min.js" type="text/javascript"></script>
 	<script src="./assets/js/jquery.themepunch.plugins.min.js" type="text/javascript"></script>
+    <script src="./assets/docs/js/metro-min.js"></script>
 	<script src="./assets/js/default.js" type="text/javascript"></script>
 	<script src="./assets/js/plugin_revolution.js" type="text/javascript"></script>
 	<script src="./assets/js/easypaginate.js" type="text/javascript" ></script>
-
 	<!-- Metro UI CSS JavaScript plugins -->
     <script src="./assets/js/load-metro.js"></script>
+    <script src="./assets/js/default.js"></script>
 </head>
 <body class="metro" style="">
     <header id="content-header">
@@ -63,8 +63,7 @@
 					<div class="links-login">
 						<a href="#" title="Crie uma conta" class="">Crie uma conta</a>
 						<a href="#" title="Esqueceu senha?" class="esqueceu-senha">Esqueceu sua senha?</a>
-					</div>
-					
+					</div>					
 					<input type="submit" value="Entrar">
         		</form>
         	</div>
@@ -79,71 +78,53 @@
 			    <ul>
 			     	<li><a href="#"><i class="icon-home"></i></a></li>
 			        <li><a href="#">Home</a></li>
-			        <li class="active"><a href="#">Carrinho de Compras</a></li>
+			        <li><a href="#">Esqueci minha senha</a></li>
 			    </ul>
 			</nav>
-    		<h2 class="titles-big linha-h2">Carrinho de Compras</h2>
-	    		<table class="table">
-					<thead>
-		            <tr>
-		                <th class="text-left">Nome Pproduto</th>
-		                <th class="text-left">Valor</th>
-		                <th class="text-left"></th>
-		            </tr>
-		            </thead>
-
-		            <tbody>
-		            <tr>
-		                <td><a href="" title="" id="" class="createWindow">Língua Portuguesa</a></td>
-						<td class="right">R$ 20,00</td>
-		                <td class="right"><a href="" title="" class="deleta-item">Deletar</a></td>
-		            </tr>
-		            <tr>
-		                <td><a href="" title="" class="">Gestão de Pessoas</a></td>
-		                <td class="right">R$ 20,00</td>
-		                <td class="right"><a href="" title="" class="deleta-item">Deletar</a></td>
-		            </tr>
-		            <tr>
-		                <td><a href="" title="" class="">Administração Geral</a></td>
-						<td class="right">R$ 20,00</td>
-		                <td class="right" style="width: 45px;"><a href="" title="" class="deleta-item">Deletar</a></td>
-		            </tr>
-				</tbody>
-
-				<tfoot></tfoot>
-		    </table>
-
-	    	<div id="vale-cupom"class="metro one-column">
-	    		<div class="span10 left">
-					<p>Se você tem um cupom de desconto, insira-o ao lado:</p>
-				</div>
-				<div class="span4 floatright">
-					<div class="input-control text left">
-					    <input type="text" value="" placeholder=""/>
+    		<h2 class="titles-big linha-h2">Esqueci minha Senha</h2>
+    		<p>Siga as instruções que serão enviadas para o e-mail cadastrado.</p>
+    		<div class="span6 left">
+        		<form action="" method="get" accept-charset="utf-8">
+        			<!-- label>E-mail:<label -->
+	        		<div class="input-control text">
+					    <input type="text" value="" placeholder="Insira o e-mail cadastrado "/>
 					    <button class="btn-clear"></button>
-					</div>
-					<div class="floatright">
-						<input type="submit" value="Validar Cupom">
-					</div>
-				</div>
-	    	</div>
+					</div>					
+					<input type="submit" value="Enviar">
+        		</form>
+    		</div>
 
-	    	<div class="metro one-column box-total">
-	    		<div class="span4 left">
-					<a href="" title="Continuar Comprando" class="continuar-comprando">Continuar Comprando</a>
-				</div>
-				<div id="total-carrinho" class="span4">
-					<span class="label-total">Total</span>
-					<span class="label-valor">R$ 154,00</span>
-				</div>
-	    	</div>
-			<a href="" title="Finalizar Compra" class="finalizar-compra margin-top">Finalizar Compra</a>
-	    	<div class="metro one-column margin-top">
-	    		<img src='https://p.simg.uol.com.br/out/pagseguro/i/banners/divulgacao/728x90_10X_pagseguro.gif' alt='' />
-	    	</div>
+            <button class="button primary" id="notify_btn_1">Notify</button>
+            <button class="button success" id="notify_btn_2">Notify many</button>
+                    <script>
+                        $(function(){
+                            $('#notify_btn_1').on('click', function(){
+                                $.Notify({
+                                    shadow: true,
+                                    position: 'bottom-right',
+                                    content: "Metro UI CSS is awesome!!!"
+                                });
+                            });
+                            $('#notify_btn_2').on('click', function(){
+                                setTimeout(function(){
+                                    $.Notify({style: {background: '#1ba1e2', color: 'white'}, caption: 'Info...', content: "Metro UI CSS is Simple!!!"});
+                                }, 1000);
+                                setTimeout(function(){
+                                    $.Notify({style: {background: 'red', color: 'white'}, content: "Metro UI CSS is Sufficient!!!"});
+                                }, 2000);
+                                setTimeout(function(){
+                                    $.Notify({style: {background: 'green', color: 'white'}, content: "Metro UI CSS is Responsive!!!"});
+                                }, 3000);
+                                setTimeout(function(){
+                                    $.Notify({content: "Default style for notify"});
+                                }, 4000);
+                            });
+                        });
+                    </script>
+			
     	</div><!-- end noticias -->
 	</div><!-- end container -->
-	<footer id="footer" class="clear">
+	<footer id="footer" class="clear ">
 		<div id="footer-content" class="">
 			<div id="redes-sociais">
 				<ul class="">
