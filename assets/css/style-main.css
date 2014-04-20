@@ -1038,15 +1038,27 @@ a.ver-todas-simples:hover {
 }
 .finalizar-compra {
 	padding: 15px 4em 15px 15px;
-	background: #1AA1E1 url('../imgs/arrow-right.png') no-repeat 130px center;
+	background: #1AA1E1 url('../imgs/arrow-right.png') no-repeat 125px center;
 	color: #fff !important;
 	text-align: right;
 	float: right;
-	margin: 10px 0;
+
 }
 .finalizar-compra:hover {
 	background-color: #3D89CF;	
 }
+
+.botao-finalizar-compra {
+	padding: 15px 4em 15px 15px !important;
+	background: #1AA1E1 url('../imgs/arrow-right.png') no-repeat 125px center !important;
+	color: #fff !important;
+	text-align: right;
+	float: right;
+}
+.botao-finalizar-compra:hover {
+	background-color: #3D89CF !important;
+}
+
 .continuar-comprando:hover {
 	background-color: #3D89CF;
 }
