@@ -31,6 +31,13 @@ hr.line {
 .margin-top {
  margin-top: 15px;
 }
+
+.floatright {
+	float: right;
+}
+
+
+
 /* ----Start------ */
 
 .container {
@@ -1008,4 +1015,63 @@ a.ver-todas-simples:hover {
 .iniciar:hover {
 	color: #fff !important;
 	background-color: #245F93;
+}
+
+/*--------- PAGE CARRINHO -----------*/
+
+.deleta-item {
+	text-indent: -99999px;
+	width: 45px;
+	height: 45px;
+	display: block;
+	background: transparent url('../imgs/delete-produto.png') no-repeat 0 0;
+
+}
+.deleta-item:hover {
+	background: transparent url('../imgs/delete-produto.png') no-repeat 0 -45px;
+}
+
+.continuar-comprando {
+	padding: 15px 15px 15px 4em;
+	background: #1AA1E1 url('../imgs/arrow-left.png') no-repeat 15px center;
+	color: #fff !important;
+}
+.finalizar-compra {
+	padding: 15px 4em 15px 15px;
+	background: #1AA1E1 url('../imgs/arrow-right.png') no-repeat 130px center;
+	color: #fff !important;
+	text-align: right;
+	float: right;
+	margin: 10px 0;
+}
+.finalizar-compra:hover {
+	background-color: #3D89CF;	
+}
+.continuar-comprando:hover {
+	background-color: #3D89CF;
+}
+
+#total-carrinho {
+	margin: -20px 10px 0 0;
+	float: right;
+	text-align: right;
+}
+
+.label-total {
+	font-size: 0.9em;
+	display: block;
+}
+.label-valor {
+	font-size: 1.9em;
+	display: block;
+	font-family: 'Open Sans Bold' !important;
+}
+
+#vale-cupom {
+	padding: 25px 0;
+	margin: 25px 0;
+	width: 99%;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	clear: both;
 }
