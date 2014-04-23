@@ -836,6 +836,23 @@ a.article-lista-noticias h4 {
 	margin-bottom: 35px;
 }
 
+
+/* ------------ PAGE CURSOS -------------*/
+.adicionar-carrinho {
+	background: #5F9CD4 url('../imgs/carrinho-white.png') no-repeat 10px 11px;
+	color: #fff !important;
+	padding: 10px 5px 10px 25px;
+	margin-top: 10px;
+	display: block;
+	width: 180px;
+	text-align: center;
+	float: right;
+}
+.adicionar-carrinho:hover {
+	background-color: #3D89CF;	
+}
+
+
 /*--------- PAGES ARTIGOS -----------*/
 #autor-artigo {
 	width: 100%;
