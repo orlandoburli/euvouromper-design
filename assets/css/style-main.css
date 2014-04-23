@@ -1092,7 +1092,7 @@ a.ver-todas-simples:hover {
 /*--------- PAGE CARRINHO -----------*/
 
 .deleta-item {
-	text-indent: -99999px;
+	text-indent: -99999px !important;
 	width: 45px;
 	height: 45px;
 	display: block;
