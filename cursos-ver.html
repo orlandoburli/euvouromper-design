@@ -131,6 +131,18 @@
                             });
                         });
 
+                        $(".item").click(function() {
+                             $.Dialog({
+                                shadow: true,
+                                overlay: false,
+                                icon: '<span class="icon-rocket"></span>',
+                                title: 'Title',
+                                width: 500,
+                                padding: 10,
+                                content: 'Window content here'
+                            });
+                        });
+
                     })
                 </script>
                 <div class="panel-content">
@@ -149,7 +161,7 @@
                         <tbody>
                         <tr>
                             <td><button class="button createWindow" id="botao-window"><img src="./assets/imgs/ver-info.png" alt=""></button></td>
-                            <td class="right">Língua Portuguesa</td>
+                            <td class="right"><a href="#" class="item">Língua Portuguesa</a></td>
                             <td class="right">HENRIQUE CASTELO BRANCO</td>
                             <td class="right">34h</td>
                             <td class="right">R$ 70,00</td>
