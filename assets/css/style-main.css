@@ -1104,7 +1104,7 @@ a.ver-todas-simples:hover {
 }
 .finalizar-compra {
 	padding: 15px 50px 15px 15px;
-	background: #1AA1E1 url('../imgs/arrow-right.png') no-repeat 125px center;
+	background: #1AA1E1 url('../imgs/arrow-right.png') no-repeat right center;
 	color: #fff !important;
 	text-align: right;
 	float: right;
