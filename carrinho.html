@@ -95,18 +95,18 @@
 		            <tbody>
 		            <tr>
 		                <td><a href="" title="" id="" class="createWindow">Língua Portuguesa</a></td>
-						<td class="left">R$ 20,00</td>
-		                <td class="text-left"><a href="" title="" class="deleta-item">Deletar</a></td>
+						<td class="text-left">R$ 20,00</td>
+						<td class="text-right"><a href="" title="" class="deleta-item">Remover ítem</a></td>
 		            </tr>
 		            <tr>
 		                <td><a href="" title="" class="">Gestão de Pessoas</a></td>
-		                <td class="left">R$ 20,00</td>
-		                <td class="text-left"><a href="" title="" class="deleta-item">Deletar</a></td>
+		                <td class="text-left">R$ 20,00</td>
+						<td class="text-right"><a href="" title="" class="deleta-item">Remover ítem</a></td>
 		            </tr>
 		            <tr>
 		                <td><a href="" title="" class="">Administração Geral</a></td>
-						<td class="left">R$ 20,00</td>
-		                <td class="text-left" style="width: 45px;"><a href="" title="" class="deleta-item">Deletar</a></td>
+						<td class="text-left">R$ 20,00</td>
+		                <td class="text-right"><a href="" title="" class="deleta-item">Remover ítem</a></td>
 		            </tr>
 				</tbody>
 
@@ -114,30 +114,45 @@
 		    </table>
 
 	    	<div id="vale-cupom"class="metro one-column">
-	    		<div class="span10 left">
+	    		<div class="span8 left">
 					<p>Se você tem um cupom de desconto, insira-o ao lado:</p>
 				</div>
-				<div class="span4 floatright">
-					<div class="input-control text left">
+				<div class="span6 floatright padding-left">
+					<div class="input-control span4 text floatleft">
 					    <input type="text" value="" placeholder=""/>
 					    <button class="btn-clear"></button>
 					</div>
-					<div class="floatright">
-						<input type="submit" value="Validar Cupom">
+					<div class="floatleft">
+						<input type="submit" id="botao-valida-cupom" value="Validar Cupom">
 					</div>
 				</div>
 	    	</div>
-
-	    	<div class="metro one-column box-total">
-	    		<div class="span4 left">
-					<a href="" title="Continuar Comprando" class="continuar-comprando">Continuar Comprando</a>
-				</div>
-				<div id="total-carrinho" class="span4">
-					<span class="label-total">Total</span>
+			<div id="total-carrinho" class="">
+				<div class="span4 left">
+					<span class="label-total">Total Bruto</span>
 					<span class="label-valor">R$ 154,00</span>
 				</div>
+				<div class="span4 left">
+					<span class="label-total">Total Desconto</span>
+					<span class="label-valor">R$ 154,00</span>
+				</div>
+				<div class="span4 left">
+					<span class="label-total">Total Líquido</span>
+					<span class="label-valor">R$ 154,00</span>
+				</div>
+
+			</div>
+
+	    	<div class="metro one-column margin-top">
+	    		<div class="span5 left">
+					<a href="" title="Continuar Comprando" class="continuar-comprando">Continuar Comprando</a>
+				</div>
+		  		<div class="span5 floatright">
+					<a href="" title="Finalizar Compra" class="finalizar-compra">Finalizar Compra</a>
+				</div>
+
 	    	</div>
-			<a href="" title="Finalizar Compra" class="finalizar-compra margin-top">Finalizar Compra</a>
+			
 	    	<div class="metro one-column margin-top">
 	    		<img src='https://p.simg.uol.com.br/out/pagseguro/i/banners/divulgacao/728x90_10X_pagseguro.gif' alt='' />
 	    	</div>

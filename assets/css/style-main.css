@@ -20,7 +20,9 @@ hr.line {
 .white {
 	color: white !important;
 }
-
+.padding-left {
+	padding-left: 43px;
+}
 #carrinho-compras {
 	margin: 2em 0;
 }
@@ -38,7 +40,9 @@ hr.line {
 .floatright {
 	float: right;
 }
-
+.floatleft {
+	float: left;
+}
 .link-padrao {
 	text-align: right;
 	clear: both;
@@ -1091,25 +1095,15 @@ a.ver-todas-simples:hover {
 
 /*--------- PAGE CARRINHO -----------*/
 
-.deleta-item {
-	text-indent: -99999px !important;
-	width: 45px;
-	height: 45px;
-	display: block;
-	background: transparent url('../imgs/delete-produto.png') no-repeat 0 0;
-
-}
-.deleta-item:hover {
-	background: transparent url('../imgs/delete-produto.png') no-repeat 0 -45px;
-}
 
 .continuar-comprando {
 	padding: 15px 15px 15px 4em;
 	background: #1AA1E1 url('../imgs/arrow-left.png') no-repeat 15px center;
 	color: #fff !important;
+		float: left;
 }
 .finalizar-compra {
-	padding: 15px 4em 15px 15px;
+	padding: 15px 50px 15px 15px;
 	background: #1AA1E1 url('../imgs/arrow-right.png') no-repeat 125px center;
 	color: #fff !important;
 	text-align: right;
@@ -1136,9 +1130,13 @@ a.ver-todas-simples:hover {
 }
 
 #total-carrinho {
-	margin: -20px 10px 0 0;
-	float: right;
+	padding: 25px 0;
+	margin: 25px 0;
 	text-align: right;
+	width: 100%;
+	overflow: auto;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
 }
 
 .label-total {
@@ -1152,14 +1150,15 @@ a.ver-todas-simples:hover {
 }
 
 #vale-cupom {
-	padding: 25px 0;
+	padding: 25px 0 5px 0;
 	margin: 25px 0;
 	width: 99%;
-	border-bottom: 1px solid #ccc;
 	border-top: 1px solid #ccc;
 	clear: both;
 }
-
+#botao-valida-cupom {
+ 	padding: 8px 12px !important;
+}
 #total-pedido {
 	position: relative;
 	text-align: right;
