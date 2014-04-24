@@ -842,6 +842,21 @@ a.article-lista-noticias h4 {
 
 
 /* ------------ PAGE CURSOS -------------*/
+
+#botao-window {
+	background: none !important;
+	margin: 0 !important;
+	color: #000 !important;
+	text-shadow: 0 0 0 transparent;
+	font-size: 1em;
+	font-weight: normal;
+	letter-spacing: -1px;
+	height: auto;
+	text-decoration: underline;
+	line-height: 12px !important;
+
+}
+
 .adicionar-carrinho {
 	background: #5F9CD4 url('../imgs/carrinho-white.png') no-repeat 10px 11px;
 	color: #fff !important;
