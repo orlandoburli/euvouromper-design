@@ -392,7 +392,7 @@
 		_fnCompatMap( init, 'paging',        'bPaginate' );
 		_fnCompatMap( init, 'pagingType',    'sPaginationType' );
 		_fnCompatMap( init, 'pageLength',    'iDisplayLength' );
-		_fnCompatMap( init, 'searching',     'bFilter' );
+		_fnCompatMap( init, 'buscando',     'bFilter' );
 	}
 	
 	
@@ -10495,7 +10495,7 @@
 				 *      } );
 				 *    } );
 				 */
-				"sFirst": "First",
+				"sFirst": "Primeira",
 	
 	
 				/**
@@ -10518,7 +10518,7 @@
 				 *      } );
 				 *    } );
 				 */
-				"sLast": "Last",
+				"sLast": "Último",
 	
 	
 				/**
@@ -10541,7 +10541,7 @@
 				 *      } );
 				 *    } );
 				 */
-				"sNext": "Next",
+				"sNext": "Próximo",
 	
 	
 				/**
@@ -10564,7 +10564,7 @@
 				 *      } );
 				 *    } );
 				 */
-				"sPrevious": "Previous"
+				"sPrevious": "Anterior"
 			},
 	
 			/**
@@ -10587,7 +10587,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sEmptyTable": "No data available in table",
+			"sEmptyTable": "Dados não disponíveis",
 	
 	
 			/**
@@ -10619,7 +10619,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sInfo": "Showing _START_ to _END_ of _TOTAL_ entries",
+			"sInfo": "Mostrando _START_ até _END_ de _TOTAL_ registros",
 	
 	
 			/**
@@ -10640,7 +10640,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sInfoEmpty": "Showing 0 to 0 of 0 entries",
+			"sInfoEmpty": "Mostrando 0 até 0 de 0 registros",
 	
 	
 			/**
@@ -10662,7 +10662,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sInfoFiltered": "(filtered from _MAX_ total entries)",
+			"sInfoFiltered": "(filtered from _MAX_ total registros)",
 	
 	
 			/**
@@ -10749,7 +10749,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sLengthMenu": "Show _MENU_ entries",
+			"sLengthMenu": "Mostrar _MENU_ registros",
 	
 	
 			/**
@@ -10773,7 +10773,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sLoadingRecords": "Loading...",
+			"sLoadingRecords": "Carregando...",
 	
 	
 			/**
@@ -10794,7 +10794,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sProcessing": "Processing...",
+			"sProcessing": "Processando...",
 	
 	
 			/**
@@ -10829,7 +10829,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sSearch": "Search:",
+			"sSearch": "Busca:",
 	
 	
 			/**
@@ -10842,7 +10842,7 @@
 			 *  @type string
 			 *  @default <i>Empty string - i.e. disabled</i>
 			 *
-			 *  @dtopt Language
+			 *  @dtopt Languageshi
 			 *  @name DataTable.defaults.language.url
 			 *
 			 *  @example
