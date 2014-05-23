@@ -17,11 +17,11 @@
 	$.fn.easyPaginate = function(options){
 
 		var defaults = {				
-			step: 4,
+			step: 2,
 			delay: 100,
 			numeric: true,
 			nextprev: true,
-			auto:false,
+			auto:true,
 			loop:false,
 			pause:4000,
 			clickstop:true,
