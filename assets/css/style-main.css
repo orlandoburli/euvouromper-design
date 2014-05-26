@@ -266,6 +266,10 @@ hr.line {
 
 }
 
+.metro .horizontal-menu.compact li  {
+ margin-left: 0px !important;
+}
+
 #content-header-home {
 	height: 220px;
 }

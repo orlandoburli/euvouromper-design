@@ -41,10 +41,10 @@ $(function() {
 });
 
 	$(document).ready(function(){
-	$('#button-area-aluno').click(function() {
+	/*$('#button-area-aluno').click(function() {
 		$(this).next('#form-aluno').slideToggle();
 		$(this).toggleClass('active');
-	})
+	}) */
 
 	$('#carrinho-label').click(function() {
 		$(this).next('#itens-do-carrinho').slideToggle();
@@ -64,34 +64,52 @@ $(function() {
 		pause : 8000
 	});
 
-$("#createWindowDraggable").on('click', function(){
-                            $.Dialog({
-                                shadow: true,
-                                overlay: false,
-                                draggable: true,
-                                icon: '<span class="icon-bus"></span>',
-                                title: 'Draggable window',
-                                width: 500,
-                                padding: 10,
-                                content: 'This Window is draggable by caption.',
-                                onShow: function(){
-                                    var content = '<form id="login-form-1">' +
-                                            '<label>Login</label>' +
-                                            '<div class="input-control text"><input type="text" name="login"><button class="btn-clear"></button></div>' +
-                                            '<label>Password</label>'+
-                                            '<div class="input-control password"><input type="password" name="password"><button class="btn-reveal"></button></div>' +
-                                            '<div class="input-control checkbox"><label><input type="checkbox" name="c1" checked/><span class="check"></span>Check me out</label></div>'+
-                                            '<div class="form-actions">' +
-                                            '<button class="button primary">Login to...</button>&nbsp;'+
-                                            '<button class="button" type="button" onclick="$.Dialog.close()">Cancel</button> '+
-                                            '</div>'+
-                                            '</form>';
 
-                                    $.Dialog.title("User login");
-                                    $.Dialog.content(content);
-                                }
+	$(".login-button").on('click', function(){
+        $.Dialog({
+            overlay: true,
+            shadow: true,
+            flat: true,
+            draggable: true,
+            title: 'Área do Aluno',
+            content: '',
+            padding: 10,
+            onShow: function(_dialog){
+                var content = '<div class="panel"  style="width: 550px;">' +
+						'<div class="panel-header bg-lightBlue fg-white">' +	
+    						'Login' +
+						'</div>' + 
+						'<div class="panel-content">' + 
+							'<form a+ction="" method="get" accept-charset="utf-8">' +
+					            '<div class="panel-content">' + 
+					            '<label>E-mail</label>' +
+					    		'<div class="input-control text">' +
+								    '<input type="text" value="" placeholder=""/>' +
+								    '<button class="btn-clear"></button>' +
+								'</div>' +
+								'<label>Senha</label>' +
+								'<div class="input-control password">' +
+								    '<input type="password" value="" placeholder=""/>' +
+								    '<button class="btn-reveal"></button>' +
+								'</div>' +
+								'<div class="links-login">' + 
+									'<a href="#" title="Crie uma conta" class="crie-conta left">Crie uma conta</a>' +
+									'<a href="#" title="Esqueceu senha?" class="esqueceu-senha">Esqueceu sua senha?</a>' +
+								'</div>' +
+								'<div class="floatright">' +
+									'<input type="submit" value="Entrar">' +
+								'</div>' +
+							'</form>' +
+						'</div>' +
+					'</div>';
 
-                            });
-                        });
+                $.Dialog.title("Área do Aluno");
+                $.Dialog.content(content);
+            }
+        });
+    });
+
+
+
 });
 
