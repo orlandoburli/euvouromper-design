@@ -64,6 +64,12 @@ $(function() {
 		pause : 8000
 	});
 
+	$('#tweecool').tweecool({
+        //settings
+         username : 'gsarruda', 
+    	limit : 4  
+    });
+
 
 	$(".login-button").on('click', function(){
         $.Dialog({
@@ -75,13 +81,14 @@ $(function() {
             content: '',
             padding: 10,
             onShow: function(_dialog){
-                var content = '<div class="panel"  style="width: 550px;">' +
-						'<div class="panel-header bg-lightBlue fg-white">' +	
+                var content = '<div class="" style="width: 820px;height:350px">' +
+                	'<div class="panel" style="width: 400px; float:left;">' +
+						'<div class="panel-header bg-lightBlue fg-white">' +
     						'Login' +
 						'</div>' + 
 						'<div class="panel-content">' + 
+							'<p class="">Informe seu e-mail e senha para entrar.</p>' +
 							'<form a+ction="" method="get" accept-charset="utf-8">' +
-					            '<div class="panel-content">' + 
 					            '<label>E-mail</label>' +
 					    		'<div class="input-control text">' +
 								    '<input type="text" value="" placeholder=""/>' +
@@ -101,7 +108,37 @@ $(function() {
 								'</div>' +
 							'</form>' +
 						'</div>' +
-					'</div>';
+					'</div>' +
+
+					'<div class="panel" style="width: 400px; float:right;">' +
+						'<div class="panel-header bg-lightBlue fg-white">' +
+    						'Cadastre-se' +
+						'</div>' + 
+						'<div class="panel-content">' + 
+							'<form a+ction="" method="get" accept-charset="utf-8">' +
+			                    '<p class="">Cadastre-se se você ainda não possui uma conta.</p>' +
+			                    '<label>E-mail</label>' +
+				        		'<div class="input-control text">' +
+								    '<input type="text" value="" placeholder=""/>' +
+								    '<button class="btn-clear"></button>' +
+								'</div>' +
+								'<label>Senha</label>' +
+								'<div class="input-control password">' +
+								    '<input type="password" value="" placeholder=""/>' +
+								    '<button class="btn-reveal"></button>' +
+								'</div>' +
+								'<label>Confirme sua Senha</label>' +
+								'<div class="input-control password">' +
+								    '<input type="password" value="" placeholder=""/>' +
+								    '<button class="btn-reveal"></button>' +
+								'</div>' +
+								'<div class="floatright">' +
+									'<input type="submit" value="Cadastrar">' +
+								'</div>' +
+							'</form>' +
+						'</div>' +
+					'</div>' +
+				'</div>';
 
                 $.Dialog.title("Área do Aluno");
                 $.Dialog.content(content);
