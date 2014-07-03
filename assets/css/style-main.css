@@ -100,7 +100,9 @@ hr.line {
 }
 
 /* ----Start------ */
-
+.container {
+	width: 1140px !important;
+	}
 #container {
 	padding-bottom: 25px;
 	margin: 10px 0 !important;
